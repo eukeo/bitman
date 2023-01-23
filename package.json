@@ -1,0 +1,21 @@
+{
+  "name": "bitman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "CI=false build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eukeo/bitman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eukeo/bitman/issues"
+  },
+  "homepage": "https://github.com/eukeo/bitman#readme"
+}
