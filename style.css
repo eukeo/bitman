@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+   background-image: url("https://cdn.wallpapersafari.com/25/96/BuF5kZ.jpg");
+   background-size: cover;
+   grid-template-columns: repeat(3, 1fr);
+  }
+  
+  header {
+   align-items: center;
+   grid-template-row: repeat(3, 1fr);
+   text-align: center;
+   background-color: #0091cd;
+   background-position: tile;
+   font-size: 24px;
+   height: 75px;`
+  }
+  
+  h1 {
+   color: white;
+   font-family: 'Courgette', cursive;
+   padding: 4px;
+   text-align: center;
+  }
+  
+  #word-display, p {
+   padding: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   width: ;
+   align-items: center;
+   font-size: 34px;
+   font-family: ;
+   color: white;
+  }
+  
+  h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+   }
+  
+  h2 {
+   margin: 100px 0px 20px 0px;
+   color: white;
+   font-family: 'Courgette', cursive;
+   padding: 1px;
+   text-align: center;
+   font-size: 20px;
+  }
+  
+  #letters {
+   width: 100%;
+   height: 60px;
+   padding: 2px;
+   display: flex;
+   justify-content: center;
+   color: #0091cd;
+   background-color: #0091cd;
+   align-items: center;
+  }
+  
+  button {
+   height: 35px;
+   width: 35px;
+   color: #0091cd;
+   background: white;
+   border: white;
+  }
+  
+  footer {
+   background: #555555;
+  }
+  
+  button:hover {
+   font-size: 15px;
+   background: mediumpurple;
+   border: 3px solid pink;
+   cursor: pointer;
+   transform: scale(1.4);
+   color: white;
+   transition-duration: 0.1s;
+  }
